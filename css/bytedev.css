@@ -1,0 +1,179 @@
+.navbar-brand img{
+    width:5%
+}
+header.masthead{
+    background-image: url('../img/main-pic.png');
+    background-size: auto 100%;
+}
+.media-icon{
+    color:white;
+    position: absolute;
+    left: 76%;
+    top: 11%;
+}
+.media-icon a{
+    color:white;
+}
+#header-container{
+    position: relative;
+    right: 23%;
+    width:44%
+}
+.header-title{
+    font-family: Arial;
+    font-size: 21px;
+    text-align: justify;
+}
+.form-control{
+    background-color: #faaf31;
+}
+#header-button{
+    background-color: white;
+    color: #f99c00;
+    border-color:white;
+}
+#header-button:hover{
+    background-color: #d1d1d1;
+    color: #f99c00;
+}
+#github-button:hover{
+    background-color:#f98700;
+}
+
+#github-button{
+    background-color: transparent;
+    border-color: white;
+}
+
+#sub-header h1{
+    text-align: center;
+    left:39%;
+    position:relative
+}
+
+#sub-header img{
+    width:100%;
+    height:100%;
+}
+
+#sub-header p{
+    color:grey
+}
+
+.card{
+    width: 22%;
+}
+
+.card-text span{
+    color:#f99c00;
+    font-size:24px;
+    font-weight:bold;
+    position: absolute;
+    left: 87%;
+}
+
+#card-button{
+    background-color: #f99c00;
+    border-color: white;
+}
+
+#card-button:hover{
+    background-color:#f98700 ;
+}
+#footer{
+    background: url('../img/bytedev-footer.png');
+    background-size:     cover !important;
+    background-repeat:   no-repeat !important;
+    height:400%;
+
+}
+#footer p{
+    color:white;
+    text-align: center;
+    font-size: 24px
+}
+#footer-form input{
+    opacity:0.6;
+    background-color: #9E9E9E;
+}
+#footer-form{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+#footer-button{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.text-center button{
+    background-color: #f99c00;
+    color: white;
+    border-radius: 8px;
+    border-color:#f99c00;
+}
+.text-center button:hover{
+    background-color:#f98700;
+}
+.copyright{
+    text-align: center;
+    color:white
+}
+
+@media screen and (max-width: 980px){
+    .card{
+        width:100%;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    .card-text span{
+        visibility: hidden;
+    }
+    #footer p{
+        font-size:16px;
+    }
+    #sub-header p{
+        font-size: 16px;
+    }
+    #sub-header h1{
+        font-size: 16px;
+    }
+    .header-title{
+        font-size: 18px;
+    }
+    header.masthead{
+        background-image: url('../img/mobile-header-pic.png');
+        background-size: auto 50%;
+        background-position: bottom;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #sub-header p{
+        font-size: 11px;
+
+    }
+    #sub-header h1{
+        font-size: 9px;
+    }
+    .header-title{
+        font-size: 8px;
+    }
+    .site-heading p{
+        font-size:10px;
+        text-align: justify;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .site-heading button{
+        font-size: 7px;
+        padding: 8px;
+    }
+    .media-icon{
+        font-size:11px
+    }
+    ::placeholder{
+        font-size:10px;
+    }
+}
